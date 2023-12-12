@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(21, 84, 222);
+  width: max-content;
+  margin: 0 auto;
+  padding: 15px;
+}
