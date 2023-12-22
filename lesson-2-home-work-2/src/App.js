@@ -5,7 +5,8 @@ import cources from './data/data';
 function App() {
   return (
     <div className="App">
-      <Card courcesData={cources} />
+      {cources.map((course) => <Card key={course.id} courcesData={course}/>)}
+      
     </div>
   );
 }
